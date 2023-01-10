@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {background-color: lavender;
+
+        }
+        hr {background-color: white;
+            /* no changes and everthing is in the form of boxes */
+            /* it does not work at hr tag and search for browser 
+            default cssso we can over right the default value
+             to make changes.and width of the box is 1px
+             by default  */
+             /* by putting border stle is none we got height 0px
+             so alot some height to it */
+             
+             border-style: dotted none none;
+             /*  in above line 3 values are given so
+              dotted for top ,2nd for left none, third for right
+               for left*/
+               /* one value for all sides
+               if 2 values are given first is for top and bottom
+                other is for left and right
+                if 4 ginen then top right bottom left
+                */
+             /* also can be written as
+             border-style=none
+             border -top -style=dotted */
+             border-color: grey;
+             border-width: 0.3px;
+             height:0px;   
+             width: 10%;
+             border-radius:5px;
+
+
+        }
+        img{
+            height: 150px;
+            width: 128px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>class</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                   kanika
+                </td>
+                <td>
+                    10th
+                </td>
+            </tr>
+            <tr>
+                <td>Sheenam</td>            
+                <td>b.tech</td>            
+    
+            </tr>
+        </tbody>
+        <tfoot>
+            <!-- depricated means no longer using so to make tables we donot
+                 use attributes for making line in tables -->
+        </tfoot>
+
+        
+    </table>
+    <table cellspacing="20">
+        <tr>
+            <td>
+                <img src="my img.png " width="200" alt="">
+            </td>
+        <td>
+                <h1>Sheenam</h1>
+                <p> <em>Student at  <strong> NITJ</strong></em></p> 
+                <p>i love coffe .am good in sports</p>   
+            </td>
+        </tr>
+    </table>
+    <hr>
+</body>
+</html>
